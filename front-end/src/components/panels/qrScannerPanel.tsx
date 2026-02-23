@@ -4,7 +4,7 @@ import { Html5Qrcode } from 'html5-qrcode';
 import * as XLSX from 'xlsx';
 import { getAssetByCode } from '../../api/assets';
 import { createScan } from '../../api/scans';
-import type { Asset } from '../../types/Asset';
+import type { Asset } from '../../types/assets';
 import { useAuth } from '../../context/authContext';
 
 interface ScanResult {

@@ -4,8 +4,8 @@ import Button from '../button';
 import InputField from '../inputFeild';
 // import FormField from '../FormField';
 // import Input from '../Input';
-import QRCodeDisplay from '../QRCodeDisplay';
-import type { User as UserType } from '../../types/User';
+import QRCodeDisplay from '../qrCodeDisplay';
+import type { User as UserType } from '../../types/users';
 import { getUsers } from '../../api/users';
 
 

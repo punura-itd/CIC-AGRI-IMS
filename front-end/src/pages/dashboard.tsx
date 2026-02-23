@@ -19,11 +19,11 @@ import Button from '../components/button';
 import { getAccessibleMenuItems } from '../utils/roleUtils';
 import OverviewPanel from '../components/panels/overviewPanel';
 import AssetsPanel from '../components/panels/assetsPanel';
-import UsersPanel from '../components/panels/UsersPanel';
+import UsersPanel from '../components/panels/usersPanel';
 // import DevicesPanel from '../components/panels/DevicesPanel';
-import SuppliersPanel from '../components/panels/SuppliersPanel';
-import InsurancePanel from '../components/panels/InsurancePanel';
-import QRScannerPanel from '../components/panels/QRScannerPanel';
+import SuppliersPanel from '../components/panels/suppliersPanel';
+import InsurancePanel from '../components/panels/insurancePanel';
+import QRScannerPanel from '../components/panels/qrScannerPanel';
 
 const Dashboard = () => {
   const { user, logout } = useAuth();

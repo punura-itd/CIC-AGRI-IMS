@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
 import { Users, Plus, Search, Edit, Trash2, Eye } from 'lucide-react';
 import Button from '../button';
-import AddUserModal, { type UserFormData } from '../modals/AddUserModal';
-import ViewUserModal from '../modals/ViewUserModal';
-import EditUserModal from '../modals/EditUserModal';
+import AddUserModal, { type UserFormData } from '../modals/addUserModal';
+import ViewUserModal from '../modals/viewUserModal';
+import EditUserModal from '../modals/editUserModal';
 import { createUser, deleteUser, getUsers, updateUser } from '../../api/users';
-import { useAuth } from '../../context/AuthContext';
+import { useAuth } from '../../context/authContext';
 
 
 
