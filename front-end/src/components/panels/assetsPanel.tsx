@@ -6,6 +6,7 @@ import ViewAssetModal from '../modals/viewAssetModal';
 import EditAssetModal from '../modals/editAssetModal';
 import { createAsset, deleteAsset, getAssets, updateAsset } from '../../api/assets';
 import { useAuth } from '../../context/authContext';
+
 import { getUsers } from '../../api/users';
 import type { User as UserType } from '../../types/User';
 
