@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'react';
 import { Package, Plus, Search, Edit, Trash2, Eye, Barcode, Filter, X, Download } from 'lucide-react';
-import Button from '../Button';
-import AddAssetModal, { type AssetFormData } from '../modals/AddAssetModal';
-import ViewAssetModal from '../modals/ViewAssetModal';
-import EditAssetModal from '../modals/EditAssetModal';
+import Button from '../button';
+import AddAssetModal, { type AssetFormData } from '../modals/addAssetModal';
+import ViewAssetModal from '../modals/viewAssetModal';
+import EditAssetModal from '../modals/editAssetModal';
 import { createAsset, deleteAsset, getAssets, updateAsset } from '../../api/assets';
-import { useAuth } from '../../context/AuthContext';
+import { useAuth } from '../../context/authContext';
+
 import { getUsers } from '../../api/users';
 import type { User as UserType } from '../../types/User';
 
