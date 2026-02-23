@@ -3,9 +3,10 @@ import { Navigate, useNavigate } from 'react-router-dom';
 import { Eye, EyeOff, AlertCircle } from 'lucide-react';
 import { useAuth } from '../context/authContext';
 import InputField from '../components/inputFeild';
-import Button from '../components/Button';
-import Logo from '../components/Logo';
-import ForgotPassword from '../components/ForgotPassword';
+import Button from '../components/button';
+import Logo from '../components/logo';
+import ForgotPassword from '../components/forgotPassword';
+
 
 const Login = () => {
   const [username, setUsername] = useState('');

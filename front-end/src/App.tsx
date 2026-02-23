@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Login from './pages/login';
-// import Dashboard from './pages/dashboard';
+import Dashboard from './pages/dashboard';
 import AuthProvider, { useAuth } from './context/authContext';
 
 // Protected route component
@@ -23,11 +23,13 @@ function App() {
         <Route path="/login" element={<Login/>} />
         <Route 
           path="/dashboard" 
-          // element={
-          //   <ProtectedRoute>
-          //     <Dashboard />
-          //   </ProtectedRoute>
-          // } 
+
+          element={
+            <ProtectedRoute>
+              <Dashboard />
+            </ProtectedRoute>
+          } 
+
         />
         <Route path="*" element={<Navigate to="/login" replace />} />
       </Routes>
