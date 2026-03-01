@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { X, Package, MapPin, IndianRupee, User, Shield, Wrench, Cpu, Barcode } from 'lucide-react';
+import { X, Package, MapPin, IndianRupee, User, Shield, Wrench, Cpu, Barcode, DollarSign } from 'lucide-react';
 import Button from '../button';
-import QRCodeDisplay from '../QRCodeDisplay';
+import QRCodeDisplay from '../qrCodeDisplay';
+import MarketPriceModal from '../marketPriceModal';
 import { getUsers } from '../../api/users';
-import type { User as UserType } from '../../types/User';
+import type { User as UserType } from '../../types/users';
 
 interface Asset {
   id: number;

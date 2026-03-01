@@ -4,7 +4,8 @@ import Button from '../button';
 import InputField from '../inputFeild';
 import { useAuth } from '../../context/authContext';
 import { getUsers } from '../../api/users';
-import type { User as UserType } from '../../types/User';
+import type { User as UserType } from '../../types/users';
+
 
 
 interface Asset {
