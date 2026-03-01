@@ -1,6 +1,7 @@
 import api from "./api";
 import type { Asset } from "../types/assets";
 
+
 export const getAssets = async (): Promise<Asset[]> => {
   const res = await api.get<Asset[]>("/assets");
   return res.data;

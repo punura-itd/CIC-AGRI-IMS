@@ -1,9 +1,9 @@
 import  { useEffect, useState } from 'react';
 import { Truck, Plus, Search, Phone, Mail, Edit, Trash2, Eye } from 'lucide-react';
 import Button from '../button';
-import AddSupplierModal, { type SupplierFormData } from '../modals/addSupplierModal';
-import ViewSupplierModal from '../modals/viewSupplierModal';
-import EditSupplierModal from '../modals/editSupplierModal';
+import AddSupplierModal, { type SupplierFormData } from '../modals/AddSupplierModal';
+import ViewSupplierModal from '../modals/ViewSupplierModal';
+import EditSupplierModal from '../modals/EditSupplierModal';
 import { createSupplier, deleteSupplier, getSuppliers, updateSupplier } from '../../api/suppliers';
 
 interface Supplier {

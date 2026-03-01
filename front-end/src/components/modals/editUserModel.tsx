@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { X, User, Edit } from 'lucide-react';
-import Button from '../button';
-import InputField from '../inputFeild';
-
+import Button from '../Button';
+import InputField from '../InputField';
 
 interface User {
   id: number;
